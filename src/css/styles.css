@@ -229,7 +229,10 @@
 }
 
 .desc span {
-  color: #486aef;
+  background: linear-gradient(90deg, #eaa800 0%, #ffde34 50%, #eaa800 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: 600;
   font-size: 20px;
 }
